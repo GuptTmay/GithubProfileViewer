@@ -3,6 +3,7 @@ A simple react app which lets users see other Github users profile information.
 
 # Steps to run
 after cloning the project go the the root directory of the project and use
-<npm install>
-<sub>npm run dev</sub>
-
+'''
+npm install
+npm run dev
+'''
