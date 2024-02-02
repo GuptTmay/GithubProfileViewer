@@ -1,0 +1,135 @@
+#card {
+    margin: 30px auto;
+    padding: 25px;
+    height: 350px;
+    width: 280px;
+    border-radius: 2%;
+    background-color: white;
+    outline: solid 1px lightblue;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#image {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+#image:hover {
+    box-shadow: 1px 2px 9px black;
+}
+
+#card:hover {
+    box-shadow: 1px 2px 9px black;
+    /* border: 3px solid black; */
+}
+
+#pInfo {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex: auto;
+}
+
+#pInfo p:nth-child(1) {
+    font-size: larger;
+    display: inline;
+}
+
+#pInfo p:nth-child(2) {
+    font-size: medium;
+    color: #616161;
+    display: inline;
+    margin-left: 5px;
+}
+
+#pInfo p:nth-child(3) {
+    font-size: 14px;
+    color: #616161;
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+#AInfo {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+
+#AInfo div p:nth-child(1) {
+    font-size: 32px;
+    font-family: monospace;
+    margin: 16px 0;
+
+}
+
+#AInfo div p:nth-child(2) {
+    font-size: medium;
+    color: #616161;
+    font-family: sans-serif;
+}
+
+#background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 25%;
+    background-color: darkcyan;
+    z-index: 0;
+}
+
+
+
+.AccountButton {
+    border: 2px solid white;
+    background: none;
+	color: inherit;
+	padding: 0 5px ;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin: 0;
+}
+ 
+.AccountButton:hover {
+    box-shadow: 1px 2px 9px black;
+}
+
+.closeButton {
+    margin: 0px;
+    margin-right: 250px;
+    font-size: 1.2em;
+    text-align: center;
+    width: 40px;
+}
+
+#repoCardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #repoCard {
+    border: 2px solid #333;
+    padding: 10px;
+    max-width: 400px; /* Set a maximum width for the box */
+    width: 100%;
+    box-sizing: border-box;
+  }
